@@ -1,3 +1,47 @@
 body{
     margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+}
+
+:root{
+    --calculator-width: 90%;
+    --calculator-button-padding: 0.6em;
+    --calculator-button-font-size: 2.5em;
+}
+
+.calculator{
+    width: var(--calculator-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    z-index: 1;
+}
+
+.calculator-buttons-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto auto;
+    grid-gap: 10px 15px;
+}
+
+.calculator-buttons{
+    display: relative;
+    padding: var(--calculator-button-padding);
+    background-color: rgb(100, 136, 234, 0.8);
+    border: 0px;
+    z-index: 2;
+    box-shadow: 1px 3px 2.5px black;
+    border-radius: 15%;
+}
+
+.calculator-buttons:hover{
+    background-color: rgb(94, 133, 200);
+}
+
+.calculator-text{
+    font-size: var(--calculator-button-font-size);
 }
