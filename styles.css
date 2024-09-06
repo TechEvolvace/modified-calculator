@@ -25,14 +25,17 @@ body{
 .calculator-buttons-area{
     display: grid;
     grid-template-columns: 1fr 1fr auto auto;
-    grid-gap: 5px 5px;
+    grid-gap: 10px 10px;
 }
 
 .calculator-buttons{
+    display: relative;
     padding: var(--calculator-button-padding);
     background-color: rgb(100, 136, 234, 0.8);
     border: 0px;
     z-index: 2;
+    box-shadow: 1px 3px 2.5px black;
+    border-radius: 15%;
 }
 
 .calculator-text{
