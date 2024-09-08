@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9ebbb), to(#ffcf23)) fixed;
 }
 
 :root{
@@ -20,6 +21,9 @@ body{
     align-items: center;
     background-color: #2d478c;
     z-index: 1;
+    border-radius: 4%;
+    border: 3px solid #203477;
+    border-bottom: 18px solid #1c2e6a;
 }
 
 .calculator-buttons-area{
@@ -56,4 +60,5 @@ body{
     height: var(--calculator-input-area-height);
     padding: 2%;
     margin: calc(var(--calculator-width) / 25);
+    border-radius: 10px;
 }
