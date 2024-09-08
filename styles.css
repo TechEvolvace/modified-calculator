@@ -9,6 +9,7 @@ body{
     --calculator-width: 500px;
     --calculator-button-padding: 0.6em;
     --calculator-button-font-size: 2.5em;
+    --calculator-input-area-height: 120px;
 }
 
 .calculator{
@@ -52,6 +53,7 @@ body{
 .calculator-input-area{
     background-color: #28FF00;
     width: calc(var(--calculator-width) - 50);
+    height: var(--calculator-input-area-height);
     padding: 2%;
     margin: calc(var(--calculator-width) / 25);
 }
