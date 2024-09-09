@@ -22,8 +22,8 @@ body{
     background-color: #2d478c;
     z-index: 1;
     border-radius: 4%;
-    border: 3px solid #203477;
-    border-bottom: 18px solid #1c2e6a;
+    border: solid #1c2e6a;
+    border-width: 2px 8px 15px; 
 }
 
 .calculator-buttons-area{
@@ -38,16 +38,18 @@ body{
     justify-content: center;
     padding: var(--calculator-button-padding);
     background-color: rgba(93, 128, 227, 0.8);
-    border: 3px solid rgba(84, 118, 211, 0.8);
+    border: solid rgba(62, 91, 172, 0.8);
+    border-width: 2px 4px 8px;
     width: 105px;
     z-index: 2;
-    box-shadow: 2px 4px 6px rgb(29, 48, 77);
+    box-shadow: 0px 4px 8px rgb(29, 48, 77);
     border-radius: 15%;
 }
 
 .calculator-buttons:hover{
-    background-color: rgb(157, 180, 220);
-    border: 3px solid rgb(132, 152, 188);
+    background-color: rgb(110, 175, 224);
+    border: solid rgb(77, 144, 195);
+    border-width: 2px 4px 8px;
 }
 
 .calculator-text{
