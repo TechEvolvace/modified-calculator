@@ -52,6 +52,11 @@ body{
     border-width: 2px 4px 8px;
 }
 
+.calculator-buttons:active{
+    background-color: rgb(159, 207, 243);
+    border: 2px solid rgb(77, 144, 195);
+}
+
 .calculator-text{
     font-size: var(--calculator-button-font-size);
 }
