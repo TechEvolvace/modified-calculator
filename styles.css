@@ -75,6 +75,8 @@ body{
     Controls the appearance of the calculator area where the number and/or operations 
     the user enters through the calculator buttons and the result get displayed! 
 */
+
+/*
 .calculator-input-area{
     background-color: #28FF00;
     width: calc(var(--calculator-width) - 50);
@@ -82,4 +84,31 @@ body{
     padding: 2%;
     margin: calc(var(--calculator-width) / 25);
     border-radius: 10px;
+    border: 2px solid red;
+}
+
+
+
+
+For HTML file
+<section class="calculator-input-area calculator-input-text">
+            <input type="text" placeholder="0" id="inputArea">
+        </section>
+*/
+
+#inputArea{
+    background-color: #28FF00; 
+    width: 400px; 
+    padding: 24px;
+    margin: 20px 50px 5px; 
+    text-align: right;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+#inputArea::placeholder{
+    color: #36454F;
 }
