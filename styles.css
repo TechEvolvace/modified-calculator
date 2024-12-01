@@ -26,6 +26,7 @@ body{
     border-radius: 4%;
     border: solid #1c2e6a;
     border-width: 2px 8px 15px; 
+    margin-top: 3em;
 }
 
 /* Arrange the calculator buttons into a 4 column grid */
