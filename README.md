@@ -8,6 +8,7 @@ Finally, this website is responsively designed for both mobile and desktop scree
 Come check it out here: https://techevolvace.github.io/modified-calculator/ 
 
 ## Successful Calculator Demo 
+<video controls src="/Assets/Demo Videos/ProjectDemo.mp4" title="Title"></video>
 
 ## Future Project Goals
 1) Implement more advanced operations such as factorials, square roots, exponential calculations, and more into the calculator!
