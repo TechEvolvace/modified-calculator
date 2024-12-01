@@ -1,11 +1,11 @@
 # Modified Calculator
 
-## Unique Features
-* Implementation of the following operations not seen in a simple calculator:
- * Modulus (%)
- * Factorial (!)
- * Delete most recent entered number or operation (DEL)  
+## Project Overview 
+Successfully developed and designed a new custom-designed calculator that can perform simple arithmetic calculator operations! 
+This calculator comes with animated interactive buttons and a green display area that displays the number entered into the calculator! 
+Finally, this website is responsively designed for both mobile and desktop screen-sized applications! 
 
-## This Project Development Goals:
-1) Ensure that the calculator is responsive to fit with any screen width, regardless of whether the user is using a desktop, laptop, iPad, or small phone to access this calculator! 
-2) Ensure that all operations lead to the correct calculations and results!
+## Future Project Goals
+1) Implement more advanced operations such as factorials, square roots, exponential calculations, and more into the calculator!
+2) Provide new advanced calculators that contains the new advanced operations while keeping the basic calculators for basic arithmetic operations!
+3) Implement a system for the user to choose a color scheme for the calculator the user wants! 
