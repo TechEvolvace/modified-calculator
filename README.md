@@ -5,6 +5,10 @@ Successfully developed and designed a new custom-designed calculator that can pe
 This calculator comes with animated interactive buttons and a green display area that displays the number entered into the calculator! 
 Finally, this website is responsively designed for both mobile and desktop screen-sized applications! 
 
+Come check it out here: https://techevolvace.github.io/modified-calculator/ 
+
+## Successful Calculator Demo 
+
 ## Future Project Goals
 1) Implement more advanced operations such as factorials, square roots, exponential calculations, and more into the calculator!
 2) Provide new advanced calculators that contains the new advanced operations while keeping the basic calculators for basic arithmetic operations!
